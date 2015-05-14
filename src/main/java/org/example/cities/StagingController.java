@@ -9,7 +9,7 @@ public class StagingController {
     @RequestMapping("/")
     public String index() {
         String timestamp = System.getProperty("staging.timestamp");
-        if (timestamp == NULL) timestamp = new Date().toString()
+        if (timestamp == NULL) timestamp = new Date().toString();
         return "Application was staged at: " + timestamp;
     }
 }
