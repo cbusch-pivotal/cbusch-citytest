@@ -1,0 +1,6 @@
+---
+applications:
+- name: citytest
+  memory: 512M
+  host: citytest-123
+  domain: apps.24x.edu.pivotal.io
